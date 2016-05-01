@@ -2,16 +2,16 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  context: path.resolve('src/js'),
+  context: path.resolve('./js'),
   entry: './main.js',
   output: {
-    publicPath: '/dist/',
-    path: path.resolve('./dist/'),
+    publicPath: '/',
+    path: path.resolve('.'),
     filename: 'bundle.js'
   },
 
   devServer: {
-    contentBase: 'src'
+    contentBase: '.'
   },
 
   plugins: [
