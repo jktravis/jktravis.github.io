@@ -1,0 +1,77 @@
+
+body {
+  background-color: #111;
+  margin-top: 80px;
+}
+p {
+  color: #25847D;
+}
+
+h1, h2 {
+  color: #95D8D3;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+.jumbotron-text h1 {
+  font-size: 63px;
+}
+
+.jumbotron-text p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.braces:before {
+  content: "{ ";
+  color: #82de78;
+}
+
+.braces:after {
+  content: " }";
+  color: #82de78;
+}
+
+.term-text {
+  font-family: Consolas,Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+  font-size: .9em !important;
+  color: #82de78;
+  line-height: 1em;
+  white-space: pre;
+}
+
+.term-text:before {
+  content: '> ';
+  text-decoration: blink;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.btn {
+  background-color: #888;
+  color: #111;
+}
+
+
