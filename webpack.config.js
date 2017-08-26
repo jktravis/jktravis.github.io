@@ -24,51 +24,49 @@ module.exports = {
   ],
 
   module: {
-    preLoaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /(node_modules|vendor)/,
-        loader: 'eslint'
-      }
-    ],
-    loaders: [
+        loader: 'eslint-loader'
+      },
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['style', 'css', 'sass']
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
         test:/\.css/,
-        loaders: ['style', 'css']
+        loaders: ['style-loader', 'css-loader']
       },
       {
         test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$/,
         exclude: /node_modules/,
-        loader: 'file'
+        loader: 'file-loader'
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015']
         }
       },
       {
         test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'url?limit=10000&mimetype=application/font-woff'
+        loader: 'url-loader?limit=10000&mimetype=application/font-woff'
       },
       {
         test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'url?limit=10000&mimetype=application/octet-stream'
+        loader: 'url-loader?limit=10000&mimetype=application/octet-stream'
       },
       {
         test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'file'
+        loader: 'file-loader'
       },
       {
         test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'url?limit=10000&mimetype=image/svg+xml'
+        loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
       }
     ]
   }
