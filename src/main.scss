@@ -1,20 +1,14 @@
-
-$subTextColor: #25847D;
-$bodyBgColor: #e2e2e2;
-$braceColor: #87DC7E;
-$linkColor: #768FBF;
-
 body {
-  background-color: $bodyBgColor;
+  background-color: #e2e2e2;
   margin-top: 80px;
 }
 
 .subtext {
-  color: $subTextColor;
+  color: #25847D;
 }
 
 a {
-  color: $linkColor;
+  color: #768FBF;
 }
 
 footer {
@@ -32,26 +26,24 @@ footer {
 
 .braces:before {
   content: "{ ";
-  color: $braceColor;
+  color: #87DC7E;
 }
 
 .braces:after {
   content: " }";
-  color: $braceColor;
+  color: #87DC7E;
 }
 
 .btn {
-  background-color: $subTextColor;
-  color: $bodyBgColor;
+  background-color: #25847D;
+  color: #e2e2e2;
 }
 
 .img-responsive {
   border-radius: 10px 10px 10px;
 }
 
-.project {
-  p {
-    margin-top: 5px;
-  }
+.project p{
+  margin-top: 5px;
 }
 

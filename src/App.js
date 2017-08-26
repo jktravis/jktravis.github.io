@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import './App.css';
+import gameOfLifeJpg from './img/gameOfLife.jpg';
+import invocationsPng from './img/invocationsOnline.png';
+import markdownPng from './img/markdownPreviewer.png';
+import pomodoroPng from './img/pomodoro360.png';
+import recipeJpg from './img/recipeBox360.jpg';
+import simonJpg from './img/simon360.jpg';
+import ticTacToePng from './img/ticTacToe.png';
+import './main.scss'
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="inverse jumbotron-text">
-          <h1 className="braces text-center">Joshua Travis</h1>
-          <p className="subtext text-center">
+        <div className="">
+          <h1 className="braces text-center display-3">Joshua Travis</h1>
+          <p className="text-center lead">
             Web guy | Introvert
           </p>
         </div>
@@ -15,7 +22,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Conway's Game of Life</h2>
             <a href="http://jktravis.github.io/ZiplineGameOfLife/">
-              <img className="img-responsive" src="img/gameOfLife.jpg"/>
+              <img className="img-responsive" src={gameOfLifeJpg} />
             </a>
             <p>
               Conway's game of life all "purpled" up in honor of Prince.
@@ -24,7 +31,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Recipe Box</h2>
             <a href="http://jktravis.github.io/ZiplineRecipeBox">
-              <img className="img-responsive" src="img/recipeBox.jpg"/>
+              <img className="img-responsive" src={recipeJpg} />
             </a>
             <p>
               A simple recipe storage app using ReactJS and local storage.
@@ -33,7 +40,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Simon<sup>&reg;</sup></h2>
             <a href="http://codepen.io/jktravis/full/wGeeaN/">
-              <img className="img-responsive" src="img/simon.jpg"/>
+              <img className="img-responsive" src={simonJpg}/>
             </a>
             <p>
               My take on the classic Simon<sup>&reg;</sup> game.
@@ -44,7 +51,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Markdown Previewer</h2>
             <a href="http://jktravis.github.io/ZiplineMarkdownPreviewer/">
-              <img className="img-responsive" src="img/markdownPreviewer.png"/>
+              <img className="img-responsive" src={markdownPng}/>
             </a>
             <p>
               A simple Markdown previewer written with ReactJS.
@@ -53,7 +60,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Tic-Tac-Toe</h2>
             <a href="http://jktravis.com/ZiplineTicTacToe/">
-              <img className="img-responsive" src="img/ticTacToe.png"/>
+              <img className="img-responsive" src={ticTacToePng}/>
             </a>
             <p>
               Tic-Tac-Toe minimax.
@@ -62,7 +69,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Pomodoro Clock</h2>
             <a href="http://codepen.io/jktravis/full/rOVdJZ/">
-              <img className="img-responsive" src="img/pomodoro.png"/>
+              <img className="img-responsive" src={pomodoroPng}/>
             </a>
             <p>
               A <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">pomodoro</a> clock.
@@ -73,7 +80,7 @@ class App extends Component {
           <div className="col-md-4 project">
             <h2 className="text-center">Invocations Online</h2>
             <a href="https://www.invocationsonline.com/">
-              <img className="img-responsive" src="img/invocationsOnline.png"/>
+              <img className="img-responsive" src={invocationsPng} />
             </a>
             <p>
               Allows for the collection of municipal meeting data by locality. First project that was volunteerism.
