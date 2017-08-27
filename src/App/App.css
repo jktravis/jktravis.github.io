@@ -34,9 +34,13 @@ footer {
   color: #87DC7E;
 }
 
-.btn {
+.btn-primary {
   background-color: #25847D;
-  color: #e2e2e2;
+  border-color: #25847D;
+}
+.btn-primary:hover {
+  background-color: #87DC7E;
+  border-color: #87DC7E;
 }
 
 .img-responsive {
@@ -47,3 +51,19 @@ footer {
   margin-top: 5px;
 }
 
+.header {
+  font-family: monospace;
+}
+
+.header__key {
+  color: #A23276;
+}
+
+.header__value {
+  color: #25847D;
+}
+.footer {
+  font-family: monospace;
+}
+.footer__link {
+}

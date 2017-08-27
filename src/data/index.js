@@ -1,10 +1,10 @@
-import gameOfLifeImg from '../App/img/gameOfLife.jpg';
-import invocationsImg from '../App/img/invocationsOnline.png';
-import markdownImg from '../App/img/markdownPreviewer.png';
-import pomodoroImg from '../App/img/pomodoro360.png';
-import recipeImg from '../App/img/recipeBox360.jpg';
-import simonImg from '../App/img/simon360.jpg';
-import ticTacToeImg from '../App/img/ticTacToe.png';
+import gameOfLifeImg from './img/gameOfLife.jpg';
+import invocationsImg from './img/invocationsOnline.png';
+import markdownImg from './img/markdownPreviewer.png';
+import pomodoroImg from './img/pomodoro360.png';
+import recipeImg from './img/recipeBox360.jpg';
+import simonImg from './img/simon360.jpg';
+import ticTacToeImg from './img/ticTacToe.png';
 
 export default [
   {

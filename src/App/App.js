@@ -2,21 +2,18 @@ import React, { Component } from 'react';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
+import FaTwitter from 'react-icons/lib/fa/twitter';
+import FaLinkedIn from 'react-icons/lib/fa/linkedin-square';
+import FaGithub from 'react-icons/lib/fa/github';
+import FaFire from 'react-icons/lib/fa/fire';
 
 import './App.css';
-
-import gameOfLifeJpg from './img/gameOfLife.jpg';
-import invocationsPng from './img/invocationsOnline.png';
-import markdownPng from './img/markdownPreviewer.png';
-import pomodoroPng from './img/pomodoro360.png';
-import recipeJpg from './img/recipeBox360.jpg';
-import simonJpg from './img/simon360.jpg';
-import ticTacToePng from './img/ticTacToe.png';
 
 import data from '../data';
 
 import Header from '../Header';
 import Card from '../Card';
+import FooterLink from '../FooterLink';
 
 class App extends Component {
   render() {
@@ -25,7 +22,9 @@ class App extends Component {
       return idx % chunkSize === 0 ? data.slice(idx, idx+ chunkSize) : null;
     })
       .filter(datum => datum);
-    console.log(groups);
+
+    const leftBrace = "{";
+    const rightBrace = "}";
     return (
       <Grid>
         <Header/>
@@ -50,32 +49,19 @@ class App extends Component {
             )
           })
         }
-        <footer>
-          <div className="jumbotron-text">
-            <h2 className="text-center">Contact me</h2>
-            <Row>
-              <Col md={3}>
-                <a className="btn btn-block" href="https://twitter.com/jktravis" target="_blank">
-                  <i className="fa fa-twitter"/> Twitter
-                </a>
-              </Col>
-              <Col md={3}>
-                <a className="btn btn-block" href="https://www.linkedin.com/in/jktravis" target="_blank">
-                  <i className="fa fa-linkedin-square"/> LinkedIn
-                </a>
-              </Col>
-              <Col md={3}>
-                <a className="btn btn-block" href="https://github.com/jktravis" target="_blank">
-                  <i className="fa fa-github"/> GitHub
-                </a>
-              </Col>
-              <Col md={3}>
-                <a className="btn btn-block" href="http://www.freecodecamp.com/jktravis" target="_blank">
-                  <i className="fa fa-fire"/> Free Code Camp
-                </a>
-              </Col>
-            </Row>
-          </div>
+        <footer className="footer">
+          <Row className="justify-content-md-center">
+            <div className="col col-md-2">
+              const contact = {leftBrace}
+              <div style={{marginLeft: '2em'}}>
+                <FooterLink Icon={FaTwitter} href="https://twitter.com/jktravis" text="jktravis" />
+                <FooterLink Icon={FaLinkedIn} href="https://www.linkedin.com/in/jktravis" text="jktravis" />
+                <FooterLink Icon={FaGithub} href="https://github.com/jktravis" text="jktravis" />
+                <FooterLink Icon={FaFire} href="http://www.freecodecamp.com/jktravis" text="jktravis" />
+              </div>
+              {rightBrace}
+            </div>
+          </Row>
         </footer>
       </Grid>
     );
