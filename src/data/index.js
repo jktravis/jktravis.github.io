@@ -1,10 +1,10 @@
 import gameOfLifeImg from '../App/img/gameOfLife.jpg';
-// import invocationsImg from './img/invocationsOnline.png';
-// import markdownImg from './img/markdownPreviewer.png';
-// import pomodoroImg from './img/pomodoro360.png';
+import invocationsImg from '../App/img/invocationsOnline.png';
+import markdownImg from '../App/img/markdownPreviewer.png';
+import pomodoroImg from '../App/img/pomodoro360.png';
 import recipeImg from '../App/img/recipeBox360.jpg';
 import simonImg from '../App/img/simon360.jpg';
-// import ticTacToeImg from './img/ticTacToe.png';
+import ticTacToeImg from '../App/img/ticTacToe.png';
 
 export default [
   {
@@ -30,6 +30,51 @@ export default [
     text: "My take of the classic Simon® game.",
     href: "http://codepen.io/jktravis/full/wGeeaN/",
     linkText: "Check it out!"
+  },
+  {
+    img: markdownImg,
+    altText: "Markdown Previewer",
+    title: "Markdown Previewer",
+    text: "A simple Markdown previewer.",
+    href: "http://jktravis.github.io/ZiplineMarkdownPreviewer/",
+    linkText: "Check it out!"
+
+  },
+  {
+    img: ticTacToeImg,
+    altText: "Tic-Tac-Toe",
+    title: "Tic-Tac-Toe",
+    text: "A tic-tac-toe game using the minimax algorithm",
+    href: "http://jktravis.com/ZiplineTicTacToe/",
+    linkText: "Check it out!"
+
+  },
+  {
+    img: pomodoroImg,
+    altText: "Pomodoro Cock",
+    title: "Pomodoro Cock",
+    text: "A pomodoro (tomato) clock used in the fight against procrastination.",
+    href: "http://jktravis.com/ZiplinePomodoroClock/",
+    linkText: "Check it out!"
+
+  },
+  {
+    img: invocationsImg,
+    altText: "Invocations Online",
+    title: "Invocations Online",
+    text: "Allows for the collection of municipal meeting data by locality. First Rails and volunteer project.",
+    href: "https://www.invocationsonline.com/",
+    linkText: "Check it out!"
+
+  },
+  {
+    img: "https://images.unsplash.com/photo-1421780791481-c5fb9d369db7?q=80&fm=jpg&s=d4cb14326f974bff3b1da50958352fc3&w=360",
+    altText: "The Colosseum",
+    title: "When in Rome",
+    text: "A simple decimal to Roman numeral converter.",
+    href: "http://jktravis.github.io/WhenInRome/",
+    linkText: "Check it out!"
+
   }
 ]
 
