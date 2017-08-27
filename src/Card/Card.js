@@ -9,7 +9,7 @@ const propTypes = {
   altText: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  href: PropTypes.string.isReqiured,
+  href: PropTypes.string.isRequired,
   linkText: PropTypes.string.isRequired
 }
 
