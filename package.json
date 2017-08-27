@@ -2,6 +2,7 @@
   "name": "jktravis.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "react": "^15.6.1",
