@@ -4,7 +4,7 @@ function FooterLink ({Icon, text, href}) {
 return (
   <div>
     <a className="footer__link" href={href}>
-      <Icon/>: "{text}",
+      <span className="footer__link__key"><Icon/></span>: <span className="footer__link__value">"{text}"</span>,
     </a>
   </div>
   )

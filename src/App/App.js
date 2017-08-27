@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
@@ -23,6 +24,9 @@ class App extends Component {
     })
       .filter(datum => datum);
 
+    const LightGreen = styled.span`
+      color: #87DC7E;
+    `;
     const leftBrace = "{";
     const rightBrace = "}";
     return (
@@ -52,14 +56,14 @@ class App extends Component {
         <footer className="footer">
           <Row className="justify-content-md-center">
             <div className="col col-md-2">
-              const contact = {leftBrace}
+              <strong>const</strong> contact = <LightGreen>{leftBrace}</LightGreen>
               <div style={{marginLeft: '2em'}}>
                 <FooterLink Icon={FaTwitter} href="https://twitter.com/jktravis" text="jktravis" />
                 <FooterLink Icon={FaLinkedIn} href="https://www.linkedin.com/in/jktravis" text="jktravis" />
                 <FooterLink Icon={FaGithub} href="https://github.com/jktravis" text="jktravis" />
                 <FooterLink Icon={FaFire} href="http://www.freecodecamp.com/jktravis" text="jktravis" />
               </div>
-              {rightBrace}
+              <LightGreen>{rightBrace}</LightGreen>
             </div>
           </Row>
         </footer>

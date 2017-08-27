@@ -66,4 +66,12 @@ footer {
   font-family: monospace;
 }
 .footer__link {
+  color: inherit;
+  transition: all .15s ease-in-out
+}
+.footer__link__key {
+  color: #A23276;
+}
+.footer__link__value {
+  color: #25847D;
 }
