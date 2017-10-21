@@ -42,8 +42,8 @@ export default [
   },
   {
     img: ticTacToeImg,
-    altText: "Tic-Tac-Toe",
-    title: "Tic-Tac-Toe",
+    altText: "Tic-Tac-Taco",
+    title: "Tic-Tac-Taco",
     text: "A tic-tac-toe game using the minimax algorithm",
     href: "http://jktravis.com/ZiplineTicTacToe/",
     linkText: "Check it out!"
