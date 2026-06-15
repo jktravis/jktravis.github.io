@@ -62,7 +62,6 @@
 ||bytescm.com^
 ||careersatfb.com^
 ||carstagram.com^
-||cdninstagram.com^
 ||celebgramme.com^
 ||chickstagram.com^
 ||china-facebook.com^
