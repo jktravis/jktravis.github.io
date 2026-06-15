@@ -257,7 +257,6 @@
 ||facebooklogin.info^
 ||facebookloginhelp.net^
 ||facebooklogs.com^
-||facebookmail.com^
 ||facebookmail.tv^
 ||facebookmanager.info^
 ||facebookmarketing.info^
@@ -371,7 +370,6 @@
 ||favebook.com^
 ||faycbok.com^
 ||fb.careers^
-||fb.com^
 ||fb.gg^
 ||fb.me^
 ||fb.watch^
@@ -514,7 +512,6 @@
 ||instagram-help.com^
 ||instagram-press.com^
 ||instagram-press.net^
-||instagram.com^
 ||instagramci.com^
 ||instagramcn.com^
 ||instagramdi.com^
