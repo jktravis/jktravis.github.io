@@ -1,7 +1,3 @@
-.facebook.com
-.fb.com
-.fbcdn.net
-.facebookmail.com
 # Facebook
 creative.ak.fbcdn.net
 external-lhr0-1.xx.fbcdn.net
@@ -23,6 +19,7 @@ scontent-lhr3-1.xx.fbcdn.net
 scontent.xx.fbcdn.net
 scontent.fgdl5-1.fna.fbcdn.net
 facebook.com
+www.facebook.com
 facebook.net
 fbcdn.net
 cdn.fbsbx.com
