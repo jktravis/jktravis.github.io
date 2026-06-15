@@ -376,7 +376,6 @@
 ||fbbmarket.com^
 ||fbboostyourbusiness.com^
 ||fbcdn.com^
-||fbcdn.net^
 ||fbf8.com^
 ||fbfeedback.com^
 ||fbhome.com^
