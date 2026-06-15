@@ -1,13 +1,11 @@
+.facebook.com
+.fb.com
+.fbcdn.net
+.facebookmail.com
 
-facebook.com
-fb.com
-facebookmail.com
-meta.com
-metamail.com
+.instagram.com
 
-instagram.com
-
-reddit.com
-redd.it
-redditmedia.com
-redditstatic.com
+.reddit.com
+.redd.it
+.redditmedia.com
+.redditstatic.com
