@@ -1,3 +1,5 @@
+[Adblock Plus]
+
 ! Facebook / Meta
 ||facebook.com^
 ||fb.com^
