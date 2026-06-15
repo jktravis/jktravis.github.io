@@ -1,2 +1,6 @@
 [Adblock Plus]
 ||tiktok.com^
+||snapchat.com^
+||truthsocial.com^
+||x.com^
+||twitter.com^
